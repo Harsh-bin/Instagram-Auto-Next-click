@@ -13,4 +13,4 @@ Instagram carousel with videoes in middle plays with previous photo on top of th
 **#Fix-**
 you can manually click the next button to remover overlay.
 
-![slideshow](/slidehow.webm)
+[![**Slideshow Preview**](/slideshow.png)](/slidehow.webm)
