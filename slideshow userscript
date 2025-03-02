@@ -1,12 +1,16 @@
 // ==UserScript==
-// @name        instagram slideshow 
-// @namespace   userscript 
+// @name        Instagram Slideshow With Custom Time
+// @namespace   Instagram SLideshow
 // @match       https://www.instagram.com/*
 // @grant       none
 // @version     1.0
+// @license     MIT
 // @author      -
-// @description slideshow photos and videos form user profile
+// @description autoclicks the next button smartly to feel like slideshow.For Videos wait till it plays twice before clicking next.Preview all post in Instagram carousel before jumping to next post.
+// @downloadURL https://update.greasyfork.org/scripts/528538/Instagram%20Slideshow%20With%20Custom%20Time.user.js
+// @updateURL https://update.greasyfork.org/scripts/528538/Instagram%20Slideshow%20With%20Custom%20Time.meta.js
 // ==/UserScript==
+
 (function() {
     'use strict';
 
@@ -101,14 +105,14 @@
 
     function createToggleButton() {
         const buttonContainer = document.createElement('div');
-        buttonContainer.style.position = 'absolute';
-        buttonContainer.style.top = '70px'; // Adjusted to place above Home button
-        buttonContainer.style.left = '20px';
+        buttonContainer.style.position = 'fixed';
+        buttonContainer.style.top = '42px'; // 
+        buttonContainer.style.right = '5px'; // 
         buttonContainer.style.zIndex = '10000';
 
         const toggleButton = document.createElement('button');
         toggleButton.innerText = 'Slideshow';
-        toggleButton.style.padding = '4px 10px'; // Reduced height
+        toggleButton.style.padding = '4px 10px'; // 
         toggleButton.style.backgroundColor = '#262626';
         toggleButton.style.color = '#fff';
         toggleButton.style.border = '1px solid #ccc';
@@ -122,13 +126,13 @@
         const timeInput = document.createElement('input');
         timeInput.type = 'number';
         timeInput.placeholder = 'Sec';
-        timeInput.style.width = '30px'; // Reduced width for better integration
-        timeInput.style.padding = '3px'; // Reduced height
+        timeInput.style.width = '30px'; // 
+        timeInput.style.padding = '3px'; // 
         timeInput.style.border = '1px solid #ccc';
         timeInput.style.borderRadius = '5px';
         timeInput.style.outline = 'none';
-        timeInput.style.color = '#fff'; // Set text color to white
-        timeInput.style.backgroundColor = '#262626'; // Match the button background color
+        timeInput.style.color = '#fff'; // 
+        timeInput.style.backgroundColor = '#262626'; // 
 
         toggleButton.appendChild(timeInput);
 
