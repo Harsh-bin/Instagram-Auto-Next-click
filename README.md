@@ -1,5 +1,5 @@
 
-#  ✨ Instagram Auto Next Post.
+#  ✨ Instagram Auto Next Click.
 ![**Preview**](/Preview.gif)
 
 # 🌟 Features:
