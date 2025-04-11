@@ -1,6 +1,6 @@
 
 #  ✨ Instagram Auto Next Click.
-![**Preview**](/Preview.gif)
+![**Preview**](Preview.gif)
 
 # 🌟 Features:
 
@@ -19,7 +19,7 @@
 [orangemonkey](https://chromewebstore.google.com/detail/orangemonkey/ekmeppjgajofkpiofbebgcbohbmfldaf),
 or anyother extension
 # 🔗 Link to script
-[IG-auto-next](https://greasyfork.org/en/scripts/528538-instagram-auto-next-post)
+[IG-auto-next-click](https://greasyfork.org/en/scripts/528538-instagram-auto-next-post)
 **or download zip from the release section and install manually**
 
 
