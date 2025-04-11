@@ -1,6 +1,6 @@
 
 #  ✨ Instagram Auto Next Click.
-![**Preview**](Preview.gif)
+![**Preview**](/preview.gif)
 
 # 🌟 Features:
 
